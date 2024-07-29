@@ -339,9 +339,9 @@ spawn(function()
   end
 end)
 
-local Paragraph = Bring:Paragraph({
+local Bring = a:Section({
   ["Title"] = "Bring Mob",
-  ["Content"] = "Gom Quái"
+  ["Content"] = "Local Player Function"
 })
 
 local Toggle = Bring:Toggle({
